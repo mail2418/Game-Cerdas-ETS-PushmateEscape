@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1680412454",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Kuliah\\smt6\\GG\\Tugas 3\\Prison-Break\\venv\\Scripts\\mlagents-learn --run-id=TestConfigNew --resume",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.0+cu117",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1680412506"
+    },
+    "total": 52.128566000000006,
+    "count": 1,
+    "self": 0.028099500000003275,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08768879999999979,
+            "count": 1,
+            "self": 0.08768879999999979
+        },
+        "TrainerController.start_learning": {
+            "total": 52.0127777,
+            "count": 1,
+            "self": 0.00019759999999280353,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 49.977239000000004,
+                    "count": 1,
+                    "self": 49.977239000000004
+                },
+                "trainer_threads": {
+                    "total": 1.300000000981072e-06,
+                    "count": 1,
+                    "self": 1.300000000981072e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.0353398000000027,
+                    "count": 1,
+                    "self": 0.005414000000001806,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 2.029925800000001,
+                            "count": 1,
+                            "self": 2.029925800000001
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

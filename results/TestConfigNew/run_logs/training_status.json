@@ -1,0 +1,65 @@
+{
+    "PrisonerBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 3999924,
+                "file_path": "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-3999924.onnx",
+                "reward": 0.0,
+                "creation_time": 1680409567.9183443,
+                "auxillary_file_paths": [
+                    "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-3999924.pt"
+                ]
+            },
+            {
+                "steps": 4499932,
+                "file_path": "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-4499932.onnx",
+                "reward": 0.0,
+                "creation_time": 1680410294.0238032,
+                "auxillary_file_paths": [
+                    "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-4499932.pt"
+                ]
+            },
+            {
+                "steps": 4999872,
+                "file_path": "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-4999872.onnx",
+                "reward": 0.0,
+                "creation_time": 1680411052.5146372,
+                "auxillary_file_paths": [
+                    "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-4999872.pt"
+                ]
+            },
+            {
+                "steps": 5499959,
+                "file_path": "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-5499959.onnx",
+                "reward": 0.0,
+                "creation_time": 1680411831.6681309,
+                "auxillary_file_paths": [
+                    "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-5499959.pt"
+                ]
+            },
+            {
+                "steps": 5499959,
+                "file_path": "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-5499959.onnx",
+                "reward": null,
+                "creation_time": 1680412506.4311588,
+                "auxillary_file_paths": [
+                    "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-5499959.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5499959,
+            "file_path": "results\\TestConfigNew\\PrisonerBehaviour.onnx",
+            "reward": null,
+            "creation_time": 1680412506.4311588,
+            "auxillary_file_paths": [
+                "results\\TestConfigNew\\PrisonerBehaviour\\PrisonerBehaviour-5499959.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.0.0+cu117"
+    }
+}
